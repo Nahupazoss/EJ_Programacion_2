@@ -1,0 +1,16 @@
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\bin\Debug\net5.0\Ejercicio_07.exe
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\bin\Debug\net5.0\Ejercicio_07.deps.json
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\bin\Debug\net5.0\Ejercicio_07.runtimeconfig.json
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\bin\Debug\net5.0\Ejercicio_07.runtimeconfig.dev.json
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\bin\Debug\net5.0\Ejercicio_07.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\bin\Debug\net5.0\ref\Ejercicio_07.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\bin\Debug\net5.0\Ejercicio_07.pdb
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\obj\Debug\net5.0\Ejercicio_07.csproj.AssemblyReference.cache
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\obj\Debug\net5.0\Ejercicio_07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\obj\Debug\net5.0\Ejercicio_07.AssemblyInfoInputs.cache
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\obj\Debug\net5.0\Ejercicio_07.AssemblyInfo.cs
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\obj\Debug\net5.0\Ejercicio_07.csproj.CoreCompileInputs.cache
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\obj\Debug\net5.0\Ejercicio_07.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\obj\Debug\net5.0\ref\Ejercicio_07.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\obj\Debug\net5.0\Ejercicio_07.pdb
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Ejercicio_07\obj\Debug\net5.0\Ejercicio_07.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\bin\Debug\net5.0\Objetos_Clase3-3.exe
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\bin\Debug\net5.0\Objetos_Clase3-3.deps.json
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\bin\Debug\net5.0\Objetos_Clase3-3.runtimeconfig.json
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\bin\Debug\net5.0\Objetos_Clase3-3.runtimeconfig.dev.json
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\bin\Debug\net5.0\Objetos_Clase3-3.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\bin\Debug\net5.0\ref\Objetos_Clase3-3.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\bin\Debug\net5.0\Objetos_Clase3-3.pdb
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\obj\Debug\net5.0\Objetos_Clase3-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\obj\Debug\net5.0\Objetos_Clase3-3.AssemblyInfoInputs.cache
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\obj\Debug\net5.0\Objetos_Clase3-3.AssemblyInfo.cs
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\obj\Debug\net5.0\Objetos_Clase3-3.csproj.CoreCompileInputs.cache
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\obj\Debug\net5.0\Objetos_Clase3-3.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\obj\Debug\net5.0\ref\Objetos_Clase3-3.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\obj\Debug\net5.0\Objetos_Clase3-3.pdb
+C:\Users\Rodri\source\repos\Pazos.Nahuel\Objetos_Clase3-3\obj\Debug\net5.0\Objetos_Clase3-3.genruntimeconfig.cache
