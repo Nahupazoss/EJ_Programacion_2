@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AplicacionGuerrero/1.0.0": {
+        "dependencies": {
+          "AClassAppGuerrero": "1.0.0"
+        },
+        "runtime": {
+          "AplicacionGuerrero.dll": {}
+        }
+      },
+      "AClassAppGuerrero/1.0.0": {
+        "runtime": {
+          "AClassAppGuerrero.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AplicacionGuerrero/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AClassAppGuerrero/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

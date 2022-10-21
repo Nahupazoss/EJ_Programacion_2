@@ -1,0 +1,12 @@
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\bin\Debug\net5.0\AClassAppGuerrero.deps.json
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\bin\Debug\net5.0\AClassAppGuerrero.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\bin\Debug\net5.0\ref\AClassAppGuerrero.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\bin\Debug\net5.0\AClassAppGuerrero.pdb
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\obj\Debug\net5.0\AClassAppGuerrero.csproj.AssemblyReference.cache
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\obj\Debug\net5.0\AClassAppGuerrero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\obj\Debug\net5.0\AClassAppGuerrero.AssemblyInfoInputs.cache
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\obj\Debug\net5.0\AClassAppGuerrero.AssemblyInfo.cs
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\obj\Debug\net5.0\AClassAppGuerrero.csproj.CoreCompileInputs.cache
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\obj\Debug\net5.0\AClassAppGuerrero.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\obj\Debug\net5.0\ref\AClassAppGuerrero.dll
+C:\Users\Rodri\source\repos\Pazos.Nahuel\AClassAppGuerrero\obj\Debug\net5.0\AClassAppGuerrero.pdb
