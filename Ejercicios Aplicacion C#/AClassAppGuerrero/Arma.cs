@@ -17,6 +17,6 @@ namespace AClassAppGuerrero
 
         public int Daño { get => daño; }
 
-        public abstract string Ataque();
+        public abstract string Ataque();//lo asigna cada una de las clases que hereden de arma
     }
 }

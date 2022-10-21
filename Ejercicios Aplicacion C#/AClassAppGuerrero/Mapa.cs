@@ -18,8 +18,10 @@ namespace AClassAppGuerrero
         public override string UsarItem()
         {
             string mensaje;
+            Random random = new Random();
+            int entero = random.Next(0, 100);
 
-            if(this.tieneTesoros)
+            if (entero % 2 == 0)
             {
                 mensaje = "Marca muchos tesoros en el mapa";
             }

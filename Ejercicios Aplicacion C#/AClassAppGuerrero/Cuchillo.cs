@@ -10,7 +10,7 @@ namespace AClassAppGuerrero
     {
         int largoHoja;
 
-        public Cuchillo(int largoHoja) : base("Cuchillo")
+        public Cuchillo(int largoHoja) : base("Cuchillo")//le harcodeo el nombre
         {
             this.largoHoja = largoHoja;
         }
