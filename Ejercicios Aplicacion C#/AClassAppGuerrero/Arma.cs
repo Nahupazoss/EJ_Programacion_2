@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AClassAppGuerrero
 {
-    public abstract class Arma
+    public abstract class Arma : IArma
     {
         private int daño;
 
@@ -17,6 +17,6 @@ namespace AClassAppGuerrero
 
         public int Daño { get => daño; }
 
-        public abstract string Ataque();//lo asigna cada una de las clases que hereden de arma
+        public abstract string AtacarConArma();//lo asigna cada una de las clases que hereden de arma
     }
 }

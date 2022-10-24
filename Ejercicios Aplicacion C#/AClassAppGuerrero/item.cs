@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AClassAppGuerrero
 {
-    public abstract class item
+    public abstract class item : IUtilidad
     {
         string nombre;
 

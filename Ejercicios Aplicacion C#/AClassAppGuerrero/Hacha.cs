@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AClassAppGuerrero
 {
-    public class Hacha : Arma
+    public class Hacha : Arma , IUtilidad
     {
         private int cantidadHojas;
 
@@ -17,9 +17,14 @@ namespace AClassAppGuerrero
 
         public int CantidadHojas { get => cantidadHojas; }
 
-        public override string Ataque()
+        public override string AtacarConArma()
         {
             return $"Zaaaaaaazzzzz con {base.Daño} de damage!!!!";
+        }
+
+        public string UsarItem()
+        {
+            return "Estoy usando el hacha como item";
         }
     }
 }

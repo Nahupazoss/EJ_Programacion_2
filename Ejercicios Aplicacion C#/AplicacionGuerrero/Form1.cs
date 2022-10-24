@@ -33,7 +33,8 @@ namespace AplicacionGuerrero
         private void Form1_Load(object sender, EventArgs e)
         {
             OcultarUtilidades();
-           this.pictureBox1.Image = Image.FromFile(@"C:\Users\Rodri\source\repos\Pazos.Nahuel\AplicacionGuerrero\Imagenes\gifGuerrero.gif");
+            this.pic_cuchi2.Visible = false;
+            this.pictureBox1.Image = Image.FromFile(@"C:\Users\Rodri\source\repos\Pazos.Nahuel\AplicacionGuerrero\Imagenes\gifGuerrero.gif");
 
             System.IO.Stream audio = Properties.Resources.Espadaa;
             sonidoEspada = new System.Media.SoundPlayer(audio);
@@ -82,21 +83,15 @@ namespace AplicacionGuerrero
 
         private void btn_Atacar_Click(object sender, EventArgs e)
         {
-            if(picture_Arco.Visible == false && picture_Espada.Visible == false && picture_Hacha.Visible == false)
+            try
             {
-                this.lbl_Mensaje.Visible = true;
-            }
-            else
-            {
-                if (picture_Arco.Visible == false && picture_Espada.Visible == true && picture_Hacha.Visible == false)
+                if(picture_Arco.Visible == false && pic_cuchi2.Visible == false && picture_Espada.Visible == false && picture_Hacha.Visible == false)
                 {
-                    sonidoEspada.Play();
-                    this.lbl_Mensaje.Text = guerrero.AtacarConArma();
                     this.lbl_Mensaje.Visible = true;
                 }
                 else
                 {
-                    if (picture_Arco.Visible == true && picture_Espada.Visible == false && picture_Hacha.Visible == false)
+                    if(picture_Arco.Visible == true && pic_cuchi2.Visible == false && picture_Espada.Visible == false && picture_Hacha.Visible == false)
                     {
                         sonidoArco.Play();
                         this.lbl_Mensaje.Text = guerrero.AtacarConArma();
@@ -104,14 +99,38 @@ namespace AplicacionGuerrero
                     }
                     else
                     {
-                        if (picture_Arco.Visible == false && picture_Espada.Visible == false && picture_Hacha.Visible == true)
+                        if(picture_Arco.Visible == false && pic_cuchi2.Visible == true && picture_Espada.Visible == false && picture_Hacha.Visible == false)
                         {
-                            sonidoHacha.Play();
+                            sonidoKnife.Play();
                             this.lbl_Mensaje.Text = guerrero.AtacarConArma();
                             this.lbl_Mensaje.Visible = true;
                         }
+                        else
+                        {
+                            if(picture_Arco.Visible == false && pic_cuchi2.Visible == false && picture_Espada.Visible == true && picture_Hacha.Visible == false)
+                            {
+                                sonidoEspada.Play();
+                                this.lbl_Mensaje.Text = guerrero.AtacarConArma();
+                                this.lbl_Mensaje.Visible = true;
+                            }
+                            else
+                            {
+                                if(picture_Arco.Visible == false && pic_cuchi2.Visible == false && picture_Espada.Visible == false && picture_Hacha.Visible == true)
+                                {
+                                    sonidoHacha.Play();
+                                    this.lbl_Mensaje.Text = guerrero.AtacarConArma();
+                                    this.lbl_Mensaje.Visible = true;
+                                }
+                            }
+                        }
                     }
-                }        
+                }
+            }
+            catch (Exception ex)
+            {
+                this.lbl_Mensaje.Text = ex.Message;
+                this.lbl_Mensaje.ForeColor = Color.Red;
+                this.lbl_Mensaje.Visible = true;
             }
         }
 
@@ -121,6 +140,7 @@ namespace AplicacionGuerrero
             this.picture_Espada.Visible = true;
             this.picture_Arco.Visible = false;
             this.picture_Hacha.Visible = false;
+            this.pic_cuchi2.Visible = false;
             ocultarItems();
             this.button1.Visible = false;
             this.btn_Atacar.Visible = true;
@@ -132,6 +152,7 @@ namespace AplicacionGuerrero
             this.picture_Espada.Visible = false;
             this.picture_Arco.Visible = false;
             this.picture_Hacha.Visible = true;
+            this.pic_cuchi2.Visible = false;
             ocultarItems();
             this.button1.Visible = false;
             this.btn_Atacar.Visible = true;
@@ -143,6 +164,7 @@ namespace AplicacionGuerrero
             this.picture_Espada.Visible = false;
             this.picture_Arco.Visible = true;
             this.picture_Hacha.Visible = false;
+            this.pic_cuchi2.Visible = false;
             ocultarItems();
             this.button1.Visible = false;
             this.btn_Atacar.Visible = true;
@@ -152,13 +174,13 @@ namespace AplicacionGuerrero
         {
            try
            {
-                if(pic_venda.Visible == false && pic_cuchillo.Visible == false && pic_mapa.Visible == false)
+                if(pic_venda.Visible == false && pic_cuchillo.Visible == false && pic_mapa.Visible == false && picture_Hacha.Visible == false)
                 {
                     this.lbl_Mensaje.Visible = true;
                 }
                 else
                 {
-                    if(pic_venda.Visible == true && pic_cuchillo.Visible == false && pic_mapa.Visible == false)
+                    if(pic_venda.Visible == true && pic_cuchillo.Visible == false && pic_mapa.Visible == false && picture_Hacha.Visible == false)
                     {
                         sonidoVendaje.Play();
                         this.lbl_Mensaje.Text = guerrero.UsarItem();
@@ -166,7 +188,7 @@ namespace AplicacionGuerrero
                     }
                     else
                     {
-                        if(pic_venda.Visible == false && pic_cuchillo.Visible == true && pic_mapa.Visible == false)
+                        if(pic_venda.Visible == false && pic_cuchillo.Visible == true && pic_mapa.Visible == false && picture_Hacha.Visible == false)
                         {
                             sonidoKnife.Play();
                             this.lbl_Mensaje.Text = guerrero.UsarItem();
@@ -174,12 +196,22 @@ namespace AplicacionGuerrero
                         }
                         else
                         {
-                            if(pic_venda.Visible == false && pic_cuchillo.Visible == false && pic_mapa.Visible == true)
+                            if(pic_venda.Visible == false && pic_cuchillo.Visible == false && pic_mapa.Visible == true && picture_Hacha.Visible == false)
                             {
                                 sonidoMap.Play();
                                 this.lbl_Mensaje.Text = guerrero.UsarItem();
                                 this.lbl_Mensaje.Visible = true;
                             }
+                            else
+                            {
+                                if(pic_venda.Visible == false && pic_cuchillo.Visible == false && pic_mapa.Visible == false && picture_Hacha.Visible == true)
+                                {
+                                    sonidoHacha.Play();
+                                    this.lbl_Mensaje.Text = guerrero.UsarItem();
+                                    this.lbl_Mensaje.Visible = true;
+                                }
+                            }
+
                         }
                     }
                 }
@@ -201,6 +233,7 @@ namespace AplicacionGuerrero
             ocultarInventario();
             this.btn_Atacar.Visible = false;
             this.button1.Visible = true;
+            this.pic_cuchi2.Visible = false;
         }
 
         private void btn_Cuchillo_Click(object sender, EventArgs e)
@@ -210,8 +243,9 @@ namespace AplicacionGuerrero
             this.pic_cuchillo.Visible = true;
             this.pic_mapa.Visible = false;
             ocultarInventario();
-            this.btn_Atacar.Visible = false;
             this.button1.Visible = true;
+            this.btn_Atacar.Visible = false;
+            this.pic_cuchi2.Visible = false;
         }
 
         private void btn_Mapa_Click(object sender, EventArgs e)
@@ -223,6 +257,29 @@ namespace AplicacionGuerrero
             ocultarInventario();
             this.btn_Atacar.Visible = false;
             this.button1.Visible = true;
+            this.pic_cuchi2.Visible = false;
+        }
+
+        private void btn_CuchiArma_Click(object sender, EventArgs e)
+        {
+            guerrero.CambiarArma(new Cuchillo(20));
+            this.pic_venda.Visible = false;
+            this.pic_cuchi2.Visible = true;
+            this.pic_mapa.Visible = false;
+            this.pic_cuchillo.Visible = false;
+            ocultarInventario();
+            btn_Atacar.Visible = true;
+            button1.Visible = false;
+        }
+
+        private void btnHacha2_Click(object sender, EventArgs e)
+        {
+            ocultarItems();
+            ocultarInventario();
+            picture_Hacha.Visible = true;
+            guerrero.Item = new Hacha(1,50);
+            btn_Atacar.Visible = false;
+            button1.Visible = true;
         }
     }
 }

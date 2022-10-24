@@ -15,7 +15,7 @@ namespace AClassAppGuerrero
             this.distanciaMaxima = distanciaMaxima;
         }
 
-        public override string Ataque()
+        public override string AtacarConArma()
         {
             return $"Piuum piuum piuum con {base.Daño} de damage!!!!";
         }

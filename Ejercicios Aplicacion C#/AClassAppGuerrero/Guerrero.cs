@@ -8,15 +8,15 @@ namespace AClassAppGuerrero
 {
     public class Guerrero
     {
-        private Arma armaElegida;
-        private item itemElegido;
+        private IArma armaElegida;
+        private IUtilidad itemElegido;
 
-        public void CambiarArma(Arma arma)
+        public void CambiarArma(IArma arma)
         {
             this.armaElegida = arma;
         }
 
-        public item Item
+        public IUtilidad Item
         {
             set { this.itemElegido = value; }
         }
@@ -27,7 +27,7 @@ namespace AClassAppGuerrero
             {
                 throw new Exception("No tenes Arma!!!!!");
             }
-            return armaElegida.Ataque();
+            return armaElegida.AtacarConArma();
         }
 
         public string UsarItem()

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AClassAppGuerrero
 {
-    public class Cuchillo : item
+    public class Cuchillo : item , IArma
     {
         int largoHoja;
 
@@ -17,7 +17,12 @@ namespace AClassAppGuerrero
 
         public override string UsarItem()
         {
-            return $"Soy un cuchillo de {largoHoja} cm";
+            return $"El cuchillo con un largo de hoja de {largoHoja}";
         }
+        public string AtacarConArma()
+        {
+            return "Estoy usando el cuchillo como arma";
+        }
+
     }
 }

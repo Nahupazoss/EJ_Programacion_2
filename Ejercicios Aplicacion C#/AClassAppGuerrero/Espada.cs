@@ -17,7 +17,7 @@ namespace AClassAppGuerrero
 
         public int LongitudHoja { get => longitudHoja; }
 
-        public override string Ataque()
+        public override string AtacarConArma()
         {
             return $"Espadazooo con {base.Daño} de damage!!!!";
         }
